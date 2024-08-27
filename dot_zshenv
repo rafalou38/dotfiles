@@ -1,0 +1,8 @@
+. "$HOME/.cargo/env"
+ZDOTDIR=$HOME/.config/zsh
+ZPLUG_HOME=$HOME/.config/zplug
+HISTFILE=$ZDOTDIR/.zsh_history  
+WINEPREFIX=$HOME/.wine
+# bun completions
+[ -s "/home/rafael/.bun/_bun" ] && source "/home/rafael/.bun/_bun"
+
